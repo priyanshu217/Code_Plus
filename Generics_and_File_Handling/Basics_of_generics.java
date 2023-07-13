@@ -30,7 +30,7 @@ public class Basics_of_generics {
 //
 //        Collection<Integer> list3=new ArrayList<Integer>();
 //
-//         List<Object> list4=new ArrayList<String>():  ----->  COMPILETIME ERROR
+//         List<Object> list4=new ArrayList<String>():  -->  COMPILE TIME ERROR <--
 //
 //        List<Integer> list5=new ArrayList<Integer>();
 //
