@@ -11,12 +11,21 @@ html, body{
     width: 100%;
 }
 #cursor{
-    height: 25px;
-    width: 25px;
-    background-color: #95C11E;
+    height: 20px;
+    width: 20px;
+    background-color: #99ba337a;
     border-radius: 50%;
     position: fixed;
     z-index: 99;
+}
+#cursor-b{
+    height: 400px;
+    width: 400px;
+    background-color: #96c11e2b;
+    border-radius: 50%;
+    position: fixed;
+    filter: blur(40px);
+    z-index: 9;
 }
 #nav{
     height: 150px;
@@ -64,6 +73,7 @@ video{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    z-index: 10;
     
 }
 #page1  h1{
@@ -94,4 +104,54 @@ video{
 #page2{
     height: 100vh;
     width: 100%;
+    z-index: 10;
+}
+#scroller{
+    /* background-color: red; */
+    white-space: nowrap;
+    overflow-X: auto;
+    overflow-y: hidden;
+    position: relative;
+    z-index: inherit;
+}
+#scroller::-webkit-scrollbar{
+    display: none;
+}
+#scroller-in-1{
+    display: inline-block;
+    white-space: nowrap;
+}
+#scroller-in-1{
+    display: inline-block;
+    white-space: nowrap;
+    animation-name: scroll;
+    animation-duration: 21s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+#scroller h4{
+display: inline-block;
+font-size: 140px ;
+font-weight: 900;
+font-family: gilroy;
+margin-right: 10px;
+transition: all linear 0.5s;
+color: transparent;
+-webkit-text-stroke: 2px #95C11E;
+
+
+}
+#scroller h4:hover{
+    color: greenyellow;
+
+}
+@keyframes scroll{
+    from{
+        transform: translateX(0);
+    }
+    to{
+       transform: translateX(-100%); 
+    }
+
 }
