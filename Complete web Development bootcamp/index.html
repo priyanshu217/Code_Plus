@@ -85,7 +85,7 @@
         .secondSection{
             max-width: 80vw;
             margin: auto;
-            height: 80vh;
+            height: 60vh;
         }
         .secondSection h1{
             font-size: 1.9rem;
@@ -98,7 +98,7 @@
           display: flex;
         }
         .secondSection .vertical{
-            height: 93px;
+            height: 95px;
             width: 1px;
             background-color: white ;
             margin: 0 100px;
@@ -128,7 +128,7 @@
         }
         .footer{
             background-color: #0e0e26;
-            height: 233px;
+            height: 45px;
         }
         .footer{
             display: flex;
@@ -142,21 +142,45 @@
         .footer > div{
             width: 220px;
         }
+
+    
+        video{
+        margin-top: 24vh;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        z-index: -1;
+        position: fixed;
+        color: #010114;
+        visibility: inherit;
+    
+       }
+       .leftSection button a{
+        text-decoration: none;
+        color: white;
+       }
+       
+
+
     </style>
 </head>
 <body>
     <header>
         <nav>
-            <div class="left"> Priyanshu Portfolio</div>
+            <video autoplay loop muted src="https://player.vimeo.com/external/286292019.sd.mp4?s=4232cafab437fbc5d95df661766b4f76e094d0b7&profile_id=164&oauth2_token_id=57447761"></video>
+            <div class="left"> Priyanshu Portfolio
+            </div>
             <div class="right">
                 <ul>
-                    <li><a href="/">About</li></a>
-                    <li><a href="/">Home</li></a>
-                    <li><a href="/">Services</li></a>
-                    <li><a href="/">Contact Me</li></a>
-                    <li><a href="/">Projects</li></a>
+                    <li>About</li>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <!-- <li>Contact Me</li> -->
+                    <li>Projects</li>
                 </ul>
             </div>
+
+
         </nav>
     </header>
 
@@ -165,11 +189,11 @@
             <div class="leftSection">
                 Hi, My name is <span class="purple">Priyanshu</span> 
 
-                <div> and I am a passionate</div>
+                <div> and I am a passionate</div> 
                 <span id="element"></span>
                 <div class="buttons">
-                    <button class="btn"> Download Resume</button>
-                    <button class="btn"> Visit github</button>
+                    <button class="btn"><a href="https://github.com/priyanshu217"> Visit: github</button></a>
+                    <button class="btn"><a href="https://www.linkedin.com/in/priyanshu-saxena-65b844278/"> Visit: Linked In</button></a>
                 </div>
             </div>
 
@@ -200,7 +224,7 @@
             <div class="vertical">
                 <img class="image-top" src="developer.png" alt="" srcset="">
                 <div class="vertical-title">
-                    Node.js Developer (2012)
+                    Node.js Developer (2023)
                 </div>
                 <div class="vertical-desc">
                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias sunt sed quia neque a minus commodi, voluptatum rem consectetur quasi beatae, laborum tenetur adipisci, ratione saepe officiis. Quae rerum enim blanditiis mollitia.
@@ -247,51 +271,52 @@
     <footer>
         <div class="footer">
             <div class="first">
-                <h3>Priyanshu Portfolio</h3>
+                <h3>Contact me:</h3>
             </div>
             <div class="second">
                 <ul>
+                    <li>  priyanshusaxena20@gmail.com</li>
+                    <li> Phone no: +91 6388568703</li>
+                    <!-- <li>Home</li>
                     <li>Home</li>
-                    <li>Home</li>
-                    <li>Home</li>
-                    <li>Home</li>
-                    <li>Home</li>
+                    <li>Home</li> -->
                 </ul>
 
             </div>
             <div class="third">
-                <ul>
+                <!-- <ul>
                     <li>Home</li>
                     <li>Home</li>
                     <li>Home</li>
                     <li>Home</li>
                     <li>Home</li>
-                </ul>
+                </ul> -->
 
             </div>
             <div class="fourth">
-                <ul>
+                <!-- <ul>
                     <li>Home</li>
                     <li>Home</li>
                     <li>Home</li>
                     <li>Home</li>
                     <li>Home</li>
-                </ul>
+                </ul> -->
 
             </div>
             <div class="fifth">
-                <ul>
+                <!-- <ul>
                     <li>Home</li>
                     <li>Home</li>
                     <li>Home</li>
                     <li>Home</li>
                     <li>Home</li>
-                </ul>
+                </ul> -->
 
             </div>
             
         </div>
     </footer>
+
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
     <script>
