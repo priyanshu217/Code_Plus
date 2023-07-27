@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+    <style>
+
+        ELEMENT SELECTOR
+        p {
+            border: 2px solid black;
+            /*  ALWAYS USE SOLID TAG FOR BORDER */
+        }
+
+        /* ID SELECTOR */
+        #first {
+            color: aqua;
+            background-color: blue;
+        }
+
+        /* CLASS SELECTOR */
+        .apple {
+            color: red;
+            background-color: pink;
+        }
+
+        /* GROUPING SELECTOR */
+        span,
+        footer {
+            color: beige;
+            background-color: rgb(46, 46, 41);
+        }
+    </style>
+</head>
+
+<body>
+    <h4> css selectors</h4>
+
+    <p id="first" class="apple">Lorem ipsum dolor sit amet consectetur </p>                       
+    
+    <!--  CLASS NAME CAN BE SAME   BUT EVERY ID IS UNIQUE -->
+
+    <p id="second" class="apple">Lorem ipsum dolor sit amet consectetur adipisicing </p>
+
+    <div>
+
+        <p>Lorem ipsum dolor sit amet consectetur </p>
+        <span>Lorem ipsum dolor sit.</span>
+
+    </div>
+
+
+
+    <footer>Lorem, ipsum dolor.</footer>
+</body>
+
+</html>
