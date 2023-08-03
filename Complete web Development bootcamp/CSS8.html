@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors & more designing </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Tektur', cursive;
+        }
+
+        .container {
+            border: 0.2rem solid black;
+
+            padding-left: 3rem;
+            padding-bottom: 3rem;
+            padding-right: 3rem;
+
+            width: 505px;
+            margin: auto;
+            margin-top: 5rem;
+            background-color: #bf90ff;
+
+        }
+
+        #link {
+            float: left;
+            border-radius: 2rem;
+            font-weight: bold;
+            background-color: #55aaff;
+            border: 2px solid black;
+
+
+        }
+
+        #btn {
+            /* clear: left; */
+            float: right;
+            margin-right: 15rem;
+            border-radius: 2rem;
+            font-weight: bold;
+            background-color:  #55aaff ;
+            border: 2px solid black;
+            
+
+        }
+        #btn:hover{
+            background-color: #1a7bdb;
+            font-weight: bold;
+            border: 3px solid black;
+            /* cursor: pointer; */
+            
+           
+        }
+
+        #link:hover{
+            background-color: #1a7bdb;
+            border: 3px solid black;
+            
+        }
+        #btn:active{
+            background-color: bisque;
+        }
+        #link:active{
+            background-color: bisque;
+        }
+
+/*         
+        #link:visited{
+            background-color: beige;
+        } */
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container" id="first">
+        <h4>Wellcome Everyone Here...</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore facere vitae, eos aliquam nemo esse optio?
+            Cumque recusandae illum libero reiciendis eos, rem porro sint beatae illo quibusdam. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. A, ullam. Reiciendis ducimus, error est laborum asperiores non explicabo
+            voluptatem adipisci porro alias numquam velit reprehenderit id ratione! Ex, vitae nihil!</p>
+
+
+        <a href="https://animepahe.ru/"><button id="link">Read me</button></a>
+
+        <a href="https://www.youtube.com/"> <button id="btn">Contact us</button></a>
+
+
+    </div>
+
+</body>
+
+</html>

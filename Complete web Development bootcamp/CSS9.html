@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+    <style>
+        * {}
+
+        ul {
+
+            background-color: rgb(0, 0, 0);
+            overflow: auto;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            border: 0.2rem solid black;
+            border-radius: 3rem;
+            color: rgb(255, 255, 255);
+            border-color: rgb(255, 213, 161);
+
+
+        }
+
+        li {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            list-style: none;
+            float: left;
+            /* padding-left: 6rem; */
+        }
+        ul a{
+            color: aliceblue;
+        }
+        ul a :hover{
+            color: rgb(255, 194, 114);
+        
+        }
+        input{
+            border-radius: 1rem;
+            border: 0.2rem solid rgb(252, 153, 39);
+            background-color: blanchedalmond;
+            margin-left: 58rem;
+            padding-left: 1rem;
+            box-sizing: border-box;
+    
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+
+
+            <a href="http://">
+                <li style=" margin-right: 3rem; ">Home</li>
+            </a>
+            <a href="http://">
+                <li style=" margin-right: 3rem; ">About</li>
+            </a>
+            <a href="http://">
+                <li style="margin-right: 3rem; ">More</li>
+            </a>
+            <a href="http://">
+                <li style="margin-right: 3rem; ">New</li>
+            </a>
+
+            <input type="text"  name=" Search " placeholder="Search">
+
+
+        </ul>
+    </nav>
+
+</body>
+
+</html>
